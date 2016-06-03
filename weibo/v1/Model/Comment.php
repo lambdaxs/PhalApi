@@ -26,7 +26,7 @@ class Model_Comment extends PhalApi_Model_NotORM {
     }
 
     //删除评论
-    public function delete($commentId, $userId){
+    public function deleteComment($commentId, $userId){
         $con = [
             'user_id' => $userId,
             'id' => $commentId

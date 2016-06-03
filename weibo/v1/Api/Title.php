@@ -64,7 +64,7 @@ class Api_Title extends PhalApi_Api {
             ],
 
             //显示好友圈微博
-            'getFriends' => [
+            'getFirends' => [
                 'token' => $token,
             ],
 
@@ -97,7 +97,7 @@ class Api_Title extends PhalApi_Api {
 
 
   /**
-   * 获取公共微博列表
+   * GET请求 获取公共微博列表
    * @return int ret 请求码 200注册成功,300注册失败
    * @return string data 
    * @return string message success 错误信息
@@ -109,7 +109,7 @@ class Api_Title extends PhalApi_Api {
 
 
   /**
-   * 获取关注人微博列表
+   * GET请求 获取关注人微博列表
    * @return int ret 请求码 200注册成功,300注册失败
    * @return string data 
    * @return string message success 错误信息
@@ -120,18 +120,18 @@ class Api_Title extends PhalApi_Api {
     }
 
     /**
-     * 获取好友圈微博列表
+     * GET请求  获取好友圈微博列表
      * @return int ret 请求码 200注册成功,300注册失败
      * @return string data
      * @return string message success 错误信息
      */
-    public function getFirens(){
+    public function getFirends(){
         $this->titleDomain->token = $this->token;
         return $this->titleDomain->getFriends();
     }
 
   /**
-   * 获取微博详情
+   * GET请求 获取微博详情
    * @return int ret 请求码 200注册成功,300注册失败
    * @return string data 
    * @return string message success 错误信息
@@ -141,7 +141,7 @@ class Api_Title extends PhalApi_Api {
     }
 
   /**
-   * 获取用户个人微博列表
+   * GET请求 获取用户个人微博列表
    * @return int ret 请求码 200注册成功,300注册失败
    * @return string data 
    * @return string message success 错误信息
@@ -152,7 +152,7 @@ class Api_Title extends PhalApi_Api {
 
 
   /**
-   * 发送微博
+   * POST请求 发送微博
    * @return int ret 请求码 200注册成功,300注册失败
    * @return string data 
    * @return string message success 错误信息

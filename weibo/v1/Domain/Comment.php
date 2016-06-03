@@ -20,7 +20,7 @@ class Domain_Comment extends PhalApi_Domain {
     //删除评论
     public function delete($commentId){
 
-        $rs = $this->commentModel->delete($commentId, $this->userId);
+        $rs = $this->commentModel->deleteComment($commentId, $this->userId);
         
         if($rs == 0)$this->showErrorMessage('删除失败');
         return $rs;

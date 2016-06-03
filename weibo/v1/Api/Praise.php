@@ -63,29 +63,54 @@ class Api_Praise extends PhalApi_Api {
     }
 
 
-    //点赞
+    /**
+     * POST请求 点赞
+     * @return int ret 请求码 200注册成功,300注册失败
+     * @return string data
+     * @return string message success 错误信息
+     */
     public function agree(){
         $this->domain->token = $this->token;
         return $this->domain->agree($this->titleId);
     }
 
-    //取消赞
+    /**
+     * POST请求 取消点赞
+     * @return int ret 请求码 200注册成功,300注册失败
+     * @return string data
+     * @return string message success 错误信息
+     */
     public function cancel(){
         $this->domain->token = $this->token;
         return $this->domain->cancel($this->titleId);
     }
 
-    //获取点赞人列表
+    /**
+     * GET请求 获取某条微博的点赞人列表
+     * @return int ret 请求码 200注册成功,300注册失败
+     * @return string data
+     * @return string message success 错误信息
+     */
     public function getUsers(){
         return $this->domain->getUsers($this->titleId);
     }
 
-    //获取点过赞的微博列表
+    /**
+     * GET请求 获取某人点赞过的微博列表
+     * @return int ret 请求码 200注册成功,300注册失败
+     * @return string data
+     * @return string message success 错误信息
+     */
     public function getTitles(){
         return $this->domain->getTitles($this->userId);
     }
 
-    //获取点赞数量
+    /**
+     * GET请求 获取某条微博的点赞数量
+     * @return int ret 请求码 200注册成功,300注册失败
+     * @return string data
+     * @return string message success 错误信息
+     */
     public function count(){
         return $this->domain->getCount($this->titleId);
     }

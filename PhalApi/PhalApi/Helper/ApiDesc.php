@@ -16,7 +16,8 @@ class PhalApi_Helper_ApiDesc {
         $rules = array();
         $returns = array();
         $description = '';
-        $descComment = '//请使用@desc 注释';
+        $descComment = '';
+//        $descComment = '//请使用@desc 注释';
 
         $typeMaps = array(
             'string' => '字符串',

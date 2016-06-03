@@ -147,7 +147,7 @@ class Api_User extends PhalApi_Api {
 
 
     /**
-     * @desc 注册邮箱和帐号
+     * POST请求 注册邮箱和帐号
      * @return int ret 响应码 200成功 or 401失败
      * @return string data 发送成功:即验证码已发送,有效期120秒
      * @return string message success or 错误信息
@@ -159,7 +159,7 @@ class Api_User extends PhalApi_Api {
     }
 
     /**
-     * @desc POST 验证邮箱
+     * POST请求 验证邮箱
      * @return int ret 响应码:200注册成功,401注册失败
      * @return object data token 此token保存于客户端 用于访问其他接口
      * @return string message 请求描述 注册成功,注册失败
@@ -170,7 +170,7 @@ class Api_User extends PhalApi_Api {
 
 
     /**
-     * @desc POST 用户登录
+     * POST请求 用户登录
      * @return int ret 响应码:200成功,300失败
      * @return object data.userInfo 用户信息对象
      * @return string message 请求描述
@@ -180,7 +180,7 @@ class Api_User extends PhalApi_Api {
     }
 
     /**
-     * @desc GET 获取用户信息
+     * GET请求 获取用户信息
      * @return int ret 响应码,200成功,300失败
      * @return object data.userInfo 用户信息对象,失败返回null
      * @return string message 请求描述
@@ -192,7 +192,7 @@ class Api_User extends PhalApi_Api {
 
 
     /**
-     * @desc GET 获取个人相册URL列表
+     * GET请求 获取个人相册URL列表
      * @return int ret 响应码 200成功,300失败
      * @return array data 包含图片URL的数组
      * @return string message success代表成功,其他为返回报错信息
@@ -203,7 +203,7 @@ class Api_User extends PhalApi_Api {
     }
 
     /**
-     * @desc POST 修改用户信息
+     * POST请求 修改用户信息
      * @return int ret 响应码 200修改成功,401修改失败
      * @return string data
      * @return string message success代表成功,failure代表失败
@@ -214,7 +214,7 @@ class Api_User extends PhalApi_Api {
     }
 
     /**
-     * @desc POST 上传头像
+     * POST请求 上传头像
      * @return int ret 响应码 200上传成功,300上传失败
      * @return string data
      * @return string message success代表成功,failure代表失败
@@ -226,7 +226,7 @@ class Api_User extends PhalApi_Api {
 
 
     /**
-     * 关注用户
+     * POST请求 关注用户
      * @return int ret 请求码 200注册成功,300注册失败
      * @return string data
      * @return string message success 错误信息

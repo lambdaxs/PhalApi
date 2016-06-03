@@ -74,7 +74,7 @@ class Api_Comment extends PhalApi_Api {
 	}
 
     /**
-     * POST 发送评论
+     * POST请求 发送评论
      * @return int ret 请求码 200注册成功,300注册失败
      * @return string code success代表成功,failure代表失败
      * @return string message 请求描述 注册成功,注册失败
@@ -87,7 +87,7 @@ class Api_Comment extends PhalApi_Api {
 
 
     /**
-     * POST删除评论
+     * POST请求 删除评论
      * @return int ret 请求码 200注册成功,300注册失败
      * @return string code success代表成功,failure代表失败
      * @return string message 请求描述 注册成功,注册失败
@@ -99,7 +99,7 @@ class Api_Comment extends PhalApi_Api {
     }
 
     /**
-     * POST回复评论
+     * POST请求 回复评论
      * @return int ret 请求码 200注册成功,300注册失败
      * @return string code success代表成功,failure代表失败
      * @return string message 请求描述 注册成功,注册失败
