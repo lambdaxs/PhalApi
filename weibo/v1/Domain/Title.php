@@ -92,7 +92,7 @@ class Domain_Title extends PhalApi_Domain
 
         $title['user'] = $this->userModel->getInfo($user_id);    //插入用户信息
         $title['comments'] = $this->commentModel->getCount($title_id);//插入评论
-        $title['praises'] = $this->praisesModel->getCount($title_id);//插入点赞信息
+        $title['praises'] = $this->praisesModel->getTitlesIds($user_id);//插入点赞信息
         $title['images'] = $this->imageModel->getTitleImages($title_id);//插入图片数组
 
         return $title;

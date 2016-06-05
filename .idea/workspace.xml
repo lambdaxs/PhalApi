@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d9a4fae1-52b9-4198-89a4-0825f502bbd0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weibo/v1/Domain/Title.php" afterPath="$PROJECT_DIR$/weibo/v1/Domain/Title.php" />
     </list>
     <ignored path="PhalApi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/weibo/v1/Api/User.php">
+      <file leaf-file-name="Title.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weibo/v1/Domain/Title.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+            <state relative-caret-position="466">
+              <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -66,7 +66,6 @@
         <option value="$PROJECT_DIR$/weibo/v1/Model/Praise.php" />
         <option value="$PROJECT_DIR$/weibo/v1/Domain/Praise.php" />
         <option value="$PROJECT_DIR$/weibo/v1/Model/Title.php" />
-        <option value="$PROJECT_DIR$/weibo/v1/Domain/Title.php" />
         <option value="$PROJECT_DIR$/weibo/v1/Model/Comment.php" />
         <option value="$PROJECT_DIR$/weibo/v1/Domain/Comment.php" />
         <option value="$PROJECT_DIR$/PhalApi/PhalApi/Helper/ApiDesc.php" />
@@ -74,6 +73,7 @@
         <option value="$PROJECT_DIR$/weibo/v1/Api/Praise.php" />
         <option value="$PROJECT_DIR$/weibo/v1/Api/Title.php" />
         <option value="$PROJECT_DIR$/weibo/v1/Api/User.php" />
+        <option value="$PROJECT_DIR$/weibo/v1/Domain/Title.php" />
       </list>
     </option>
   </component>
@@ -118,6 +118,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,7 +251,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,17 +345,18 @@
       <workItem from="1464968328493" duration="1082000" />
       <workItem from="1465031379670" duration="149000" />
       <workItem from="1465034685882" duration="200000" />
+      <workItem from="1465167631451" duration="73000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66799000" />
+    <option name="totallyTimeSpent" value="66872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1237" height="777" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489895" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489895" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -689,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weibo/v1/Model/Praise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weibo/v1/Model/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-146">
@@ -714,50 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="43" column="43" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weibo/v1/Domain/Title.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="90" column="33" selection-start-line="90" selection-start-column="33" selection-end-line="90" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weibo/v1/Domain/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding>
-            <marker date="1464954143000" expanded="false" signature="9:82" placeholder=" Created by PhpStorm. ..." />
-            <marker date="1464954143000" expanded="true" signature="127:4219" placeholder="{...}" />
-            <marker date="1464954143000" expanded="true" signature="242:392" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="470:691" placeholder="{...}" />
-            <marker date="1464954143000" expanded="true" signature="596:653" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="763:1176" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="951:1006" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="1040:1096" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="1240:1587" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="1398:1518" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="1524:1580" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="1679:2019" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="1802:1857" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="1895:1950" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="2092:2746" placeholder="{...}" />
-            <marker date="1464954143000" expanded="true" signature="2613:2667" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="2791:2891" placeholder="{...}" />
-            <marker date="1464954143000" expanded="true" signature="2936:3073" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="3135:3515" placeholder="{...}" />
-            <marker date="1464954143000" expanded="true" signature="3198:3281" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="3319:3402" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="3433:3487" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="3566:3780" placeholder="{...}" />
-            <marker date="1464954143000" expanded="true" signature="3661:3715" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="3844:4214" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="3899:3981" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="4019:4103" placeholder="..." />
-            <marker date="1464954143000" expanded="true" signature="4133:4187" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,17 +774,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weibo/v1/Api/Title.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="154" column="12" selection-start-line="154" selection-start-column="12" selection-end-line="154" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weibo/v1/Api/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding>
+            <marker date="1464969248000" expanded="false" signature="10:29" placeholder=" 用户接口 Api_User ..." />
+            <marker date="1464969248000" expanded="true" signature="77:5849" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="128:176" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="211:3281" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="310:401" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="424:516" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="541:715" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="740:867" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="889:1012" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="1033:1293" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="1318:1444" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="1466:1596" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="1625:1802" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="1831:2004" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="2033:3244" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="2088:2176" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="2235:2400" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="2447:2541" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="2587:2635" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="2683:2731" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="2785:2917" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="2970:3052" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="3102:3230" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="3292:3456" placeholder=" POST请求 注册邮箱和帐号 ..." />
+            <marker date="1464969248000" expanded="true" signature="3498:3733" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="3743:3911" placeholder=" POST请求 验证邮箱 ..." />
+            <marker date="1464969248000" expanded="true" signature="3953:4066" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="4077:4219" placeholder=" POST请求 用户登录 ..." />
+            <marker date="1464969248000" expanded="true" signature="4251:4327" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="4337:4489" placeholder=" GET请求 获取用户信息 ..." />
+            <marker date="1464969248000" expanded="true" signature="4520:4611" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="4622:4781" placeholder=" GET请求 获取个人相册URL列表 ..." />
+            <marker date="1464969248000" expanded="true" signature="4813:4906" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="4916:5067" placeholder=" POST请求 修改用户信息 ..." />
+            <marker date="1464969248000" expanded="true" signature="5104:5234" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="5244:5393" placeholder=" POST请求 上传头像 ..." />
+            <marker date="1464969248000" expanded="true" signature="5430:5535" placeholder="..." />
+            <marker date="1464969248000" expanded="true" signature="5546:5684" placeholder=" POST请求 关注用户 ..." />
+            <marker date="1464969248000" expanded="true" signature="5716:5840" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/v1/Api/Title.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="154" column="12" selection-start-line="154" selection-start-column="12" selection-end-line="154" selection-end-column="12" />
+          <folding>
+            <marker date="1464969207000" expanded="false" signature="9:29" placeholder=" 微博接口 Api_Title ..." />
+            <marker date="1464969207000" expanded="true" signature="70:3396" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="125:186" placeholder="{...}" />
+            <marker date="1464969207000" expanded="true" signature="221:1826" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="319:414" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="437:527" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="548:698" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="721:820" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="844:947" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="977:1789" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="1022:1068" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="1123:1171" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="1226:1274" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="1329:1377" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="1430:1478" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="1524:1642" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="1690:1777" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="1835:1967" placeholder=" GET请求 获取公共微博列表 ..." />
+            <marker date="1464969207000" expanded="true" signature="1999:2099" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="2108:2241" placeholder=" GET请求 获取关注人微博列表 ..." />
+            <marker date="1464969207000" expanded="true" signature="2281:2385" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="2395:2538" placeholder=" GET请求  获取好友圈微博列表 ..." />
+            <marker date="1464969207000" expanded="true" signature="2574:2678" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="2686:2816" placeholder=" GET请求 获取微博详情 ..." />
+            <marker date="1464969207000" expanded="true" signature="2851:2857" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="2865:2999" placeholder=" GET请求 获取用户个人微博列表 ..." />
+            <marker date="1464969207000" expanded="true" signature="3032:3096" placeholder="..." />
+            <marker date="1464969207000" expanded="true" signature="3105:3234" placeholder=" POST请求 发送微博 ..." />
+            <marker date="1464969207000" expanded="true" signature="3264:3393" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/v1/Model/Praise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1464954571000" expanded="true" signature="9:82" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1464954571000" expanded="true" signature="134:1544" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="190:331" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="208:287" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="391:587" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="414:493" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="547:557" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="645:746" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="697:717" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="811:1056" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="859:868" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="886:906" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="960:1023" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="974:1017" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="1119:1366" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="1167:1177" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="1195:1213" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="1268:1332" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="1282:1326" placeholder="..." />
+            <marker date="1464954571000" expanded="true" signature="1379:1413" placeholder=" 根据主键值返回对应的表名，注意分表的情况 ..." />
+            <marker date="1464954571000" expanded="true" signature="1456:1543" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/v1/Domain/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding>
+            <marker date="1464954143000" expanded="false" signature="9:82" placeholder=" Created by PhpStorm. ..." />
+            <marker date="1464954143000" expanded="true" signature="127:4219" placeholder="{...}" />
+            <marker date="1464954143000" expanded="true" signature="242:392" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="470:691" placeholder="{...}" />
+            <marker date="1464954143000" expanded="true" signature="596:653" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="763:1176" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="951:1006" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="1040:1096" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="1240:1587" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="1398:1518" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="1524:1580" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="1679:2019" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="1802:1857" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="1895:1950" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="2092:2746" placeholder="{...}" />
+            <marker date="1464954143000" expanded="true" signature="2613:2667" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="2791:2891" placeholder="{...}" />
+            <marker date="1464954143000" expanded="true" signature="2936:3073" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="3135:3515" placeholder="{...}" />
+            <marker date="1464954143000" expanded="true" signature="3198:3281" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="3319:3402" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="3433:3487" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="3566:3780" placeholder="{...}" />
+            <marker date="1464954143000" expanded="true" signature="3661:3715" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="3844:4214" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="3899:3981" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="4019:4103" placeholder="..." />
+            <marker date="1464954143000" expanded="true" signature="4133:4187" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weibo/v1/Domain/Title.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
           <folding />
         </state>
       </provider>
